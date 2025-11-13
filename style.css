@@ -38,12 +38,12 @@ td,
 
 .table {
     font-size: 50px;
-    
+
 }
 
 #display {
     text-align: end;
-    display:block;
+    display: flex;
     align-items: center;
     background-color: rgb(64, 98, 64);
     height: 80px;
