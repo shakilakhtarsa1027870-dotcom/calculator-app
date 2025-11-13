@@ -38,11 +38,12 @@ td,
 
 .table {
     font-size: 50px;
-    text-align: end;
+    
 }
 
 #display {
-    display: flex;
+    text-align: end;
+    display:block;
     align-items: center;
     background-color: rgb(64, 98, 64);
     height: 80px;
@@ -53,7 +54,6 @@ td,
     margin-bottom: 10px;
     overflow-x: auto;
     overflow-y: hidden;
-    text-align: end;
 }
 
 td:hover {
@@ -68,5 +68,4 @@ td:hover {
 
 .calc {
     width: 25%;
-
 }
